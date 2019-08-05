@@ -24,7 +24,12 @@
             <a href="http://localhost/10DGS-Fake-Deets-Project/contact.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Contact</a>
         </div>
         <div>
+        <font color= "black">
             <h1>You have sucessfully logged into the admin area</h1>
+        </font>
+        </div>
+        <div style="padding-top: 2%;">
+                <a href="http://localhost/10DGS-Fake-Deets-Project/logout.php" style="text-decoration: none">Logout</a>
         </div>
     </div>
 </body>

@@ -51,7 +51,7 @@
             <div style="padding-top: 5%;">
                 <input type="password" placeholder="Password" name="password" style="height: 40px; font-size: 15px;">
             <div style="padding-top: 2%;">
-                <input type="submit" value="Login" style="width: 115px; height: 35px; border-radius: 10px; background-color: navy; color: white; border-color: white;"></input>
+                <input type="submit" value="Login" style="width: 115px; height: 35px; border-radius: 10px; background-color: navy; color: white; border-color: white;">
             </div>
             </div>
             </div>
