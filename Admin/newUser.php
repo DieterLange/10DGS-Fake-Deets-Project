@@ -1,15 +1,30 @@
 <!DOCTYPE html>
+
+<?php
+
+    session_start();
+    if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] == false) {
+        header("Location: admin.php");
+    }
+?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Add Users</title>
+    <title>New User</title>
 </head>
-<body style="background-color: navy;">
+<body style="background-color: white;">
     <form method="post" action="server.php">
         <div style="font-family: Arial, Helvetica, sans-serif; margin-left: 25%; margin-top: 5%; padding-bottom: 2%; display: flex; justify-content: center; flex-direction: column; text-align: center; 
                     border: clear; border-radius: 20px; background-color: white; width: 50%;">
+            <div style="font-family: Arial; font-size: 15px; font-weight: 400; display: flex; flex-direction: row; justify-content: center; align-items: center; height: 44px; background-color: #2B547E;">
+            <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/newUser.php" style="text-decoration: none; margin-left: 70px; margin-right: 70px"><font color="#FFD700">Add New User</a>
+            <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/users.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Users</a>
+            <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/admin.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Admin</a>
+            <a href=http://localhost/10DGS-Fake-Deets-Project/Database/logout.php style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Logout</a>
+        </div>
             <div>
                 <h1>Create new fake user</h1>
                 <h3>Please enter details below</h3>

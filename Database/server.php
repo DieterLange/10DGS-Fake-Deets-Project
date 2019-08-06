@@ -17,7 +17,7 @@
             $gender = $_POST["gender"];
         ?>
         
-        <?php
+        <?php2
         $fname = $_POST["fname"];
         $lname = $_POST["lname"];
         $gender = $_POST["gender"];

@@ -30,10 +30,10 @@
     <form method="post" action="admin.php">
         <div style="font-family: Arial, Helvetica, sans-serif; display: flex; justify-content: center; flex-direction: column; text-align: center; border: clear; background-color: white">
             <div style="font-family: Arial; font-size: 15px; font-weight: 400; display: flex; flex-direction: row; justify-content: center; align-items: center; height: 44px; background-color: #2B547E;">
-                <a href="http://localhost/10DGS-Fake-Deets-Project/index.php" style="text-decoration: none; margin-left: 70px; margin-right: 70px"><font color="#fafaf">Home</a>
-                <a href="http://localhost/10DGS-Fake-Deets-Project/generator.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafafa">Generator</a>
-                <a href="http://localhost/10DGS-Fake-Deets-Project/admin.php" style="text-decoration: none; margin-right: 70px;"><font color="#FFD700">Admin</a>
-                <a href="http://localhost/10DGS-Fake-Deets-Project/contact.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Contact</a>
+                <a href="http://localhost/10DGS-Fake-Deets-Project/Home/index.php" style="text-decoration: none; margin-left: 70px; margin-right: 70px"><font color="#fafaf">Home</a>
+                <a href="http://localhost/10DGS-Fake-Deets-Project/Home/generator.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafafa">Generator</a>
+                <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/admin.php" style="text-decoration: none; margin-right: 70px;"><font color="#FFD700">Admin</a>
+                <a href="http://localhost/10DGS-Fake-Deets-Project/Home/contact.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Contact</a>
             </div>
             <font color="#000">
             <div style="margin-top: 10%; border: clear; border-radius: 20px; background-color: #D3D3D3; height: 250px;  display: flex; justify-content: center; flex-direction: column; text-align: center;
@@ -42,7 +42,7 @@
                 <h1>Admin Login</h1>
             <div style="padding-bottom: 1%;">   
                 <label>Enter admin username and password to enter admin area,<br>
-                if you are not looking for the admin login <a href="http://localhost/10DGS-Fake-Deets-Project/index.php">click here</a></label>
+                if you are not looking for the admin login <a href="http://localhost/10DGS-Fake-Deets-Project/Home/index.php">click here</a></label>
             </div>
             </div>
             <div style="padding-top: 2%;">
