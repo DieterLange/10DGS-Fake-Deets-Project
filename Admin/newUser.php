@@ -15,16 +15,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New User</title>
 </head>
-<body style="background-color: white;">
+<body style="background-color: white; font-color: #000">
     <form method="post" action="server.php">
-        <div style="font-family: Arial, Helvetica, sans-serif; margin-left: 25%; margin-top: 5%; padding-bottom: 2%; display: flex; justify-content: center; flex-direction: column; text-align: center; 
-                    border: clear; border-radius: 20px; background-color: white; width: 50%;">
-            <div style="font-family: Arial; font-size: 15px; font-weight: 400; display: flex; flex-direction: row; justify-content: center; align-items: center; height: 44px; background-color: #2B547E;">
-            <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/newUser.php" style="text-decoration: none; margin-left: 70px; margin-right: 70px"><font color="#FFD700">Add New User</a>
-            <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/users.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Users</a>
-            <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/admin.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Admin</a>
-            <a href=http://localhost/10DGS-Fake-Deets-Project/Database/logout.php style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Logout</a>
+        <div style="font-family: Arial; font-size: 15px; font-weight: 400; display: flex; flex-direction: row; justify-content: center; align-items: center; height: 44px; background-color: #2B547E;">
+            <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/newUser.php" style="text-decoration: none; margin-left: 70px; margin-right: 70px"><font color="#FFD700">Add New User</font></a>
+            <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/users.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Users</font></a>
+            <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/admin.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Admin</font></a>
+            <a href=http://localhost/10DGS-Fake-Deets-Project/Database/logout.php style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Logout</font></a>
         </div>
+        <div style="font-family: Arial, Helvetica, sans-serif; font-color: black; margin-left: 25%; margin-top: 5%; padding-bottom: 2%; display: flex; justify-content: center; flex-direction: column; text-align: center; 
+                    border: clear; border-radius: 20px; background-color: #D3D3D3; width: 50%;">
             <div>
                 <h1>Create new fake user</h1>
                 <h3>Please enter details below</h3>
