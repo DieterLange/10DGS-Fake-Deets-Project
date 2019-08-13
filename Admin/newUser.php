@@ -44,6 +44,10 @@
                             <input type="radio" name="gender" value="Other"><span>Other</span>
                         </div>
                         <div>
+                            <h4>Date of Birth</h4>
+                            <input type="date" placeholder="DD/MM/YYYY" name="dob" style="width: 175px; font-size: 15px;">
+                        </div>
+                        <div>
                             <h4>Email Adress</h4>
                             <input type="text" placeholder="example@email.com" name="eadress" style="height: 40px; font-size: 15px;">
                         </div>
@@ -56,15 +60,10 @@
                             <input type="text" placeholder="(04)12345678" name="pnumber" style="height: 40px; font-size: 15px;">
                         </div>
                         <div>
-                        <h4>Age</h4>
-                        <select name="age" style="width: 20%; border-radius: 10px; font-size: 20px;">
-                        <?php
-                        for($a = 1; $a <= 100; $a += 1){
-                        echo("<option value='{$a}'>{$a}</option>");
-                        }
-                        ?>
-                        </select>
-                    </div>
+                            <h4>Photo</h4>
+                            <input type="text" placeholder="Insert File Path" name="photo" style="height: 40px; font-size: 15px;">
+                        </div>
+                        
             <div style="padding-top: 10px;">
             <input type="submit" value="Create" style="width: 115px; height: 35px; border-radius: 10px; background-color: navy; color: white; border-color: white;">
             </div>

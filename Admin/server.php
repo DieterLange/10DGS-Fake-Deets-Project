@@ -15,16 +15,20 @@
             $home = $_POST["hadress"];
             $phone = $_POST["pnumber"];
             $gender = $_POST["gender"];
+            $dob = $_POST["dob"];
+            $photo = $_POST["photo"];
         ?>
         
-        <?php2
+        <?php
         $fname = $_POST["fname"];
         $lname = $_POST["lname"];
         $gender = $_POST["gender"];
+        $dob = $_POST["dob"];
         $eadress = $_POST["eadress"];
         $pnumber = $_POST["pnumber"];
         $hadress = $_POST["hadress"];
-        $sql = "INSERT INTO userinfo (fname, lname, gender, eaddress, pnumber, haddress) VALUES ('$fname', '$lname', '$gender', '$eadress', '$pnumber','$hadress')";
+        $photo = $_POST["photo"];
+        $sql = "INSERT INTO userinfo (fname, lname, gender, dob, eaddress, pnumber, haddress, photo) VALUES ('$fname', '$lname', '$gender', '$dob', '$eadress', '$pnumber','$hadress', '$photo')";
 
         $servername = "localhost";
         $username = "root";
@@ -41,9 +45,11 @@
         echo "New user created successfuly!<br><br>
         Name: $name<br><br>
         Gender: $gender<br><br>
+        Date of Birth: $dob<br><br>
         Email: $email<br><br>
         Phone Number: $phone<br><br>
-        House Address: $home";
+        House Address: $home<br><br>
+        Photo: $photo<br><br>";
         } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
         }
