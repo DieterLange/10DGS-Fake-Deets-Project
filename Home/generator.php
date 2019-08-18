@@ -14,6 +14,27 @@
             <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/admin.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Admin</a>
             <a href="http://localhost/10DGS-Fake-Deets-Project/Home/contact.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Contact</a>
         </div>
+        <?php
+             $servername = "localhost";
+             $username = "root";
+             $password = "root";
+             $dbname = "fake deets";
+             $conn = new mysqli($servername, $username, $password, $dbname);
+             if ($conn->connect_error)   {
+             die("Connection failed: " . $conn->connect_error);
+             }
+
+             $sql = "SELECT * FROM userinfo ORDER BY RAND() LIMIT 1";
+             $result = mysqli_query($conn, $sql);
+        ?>
+        <?php
+             while($user=mysqli_fetch_array($result)) {
+            
+                echo "$user['fname']";
+                echo "$user['lname']";
+                echo "$user['gender']";
+             }
+        ?>
     </div>
 </body>
 </html>
