@@ -14,6 +14,9 @@
             <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/admin.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Admin</a>
             <a href="http://localhost/10DGS-Fake-Deets-Project/Home/contact.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Contact</a>
         </div>
+        <div style="font-family: Arial, Helvetica, sans-serif; margin-left: 38%; margin-top: 15%; padding-bottom: 1%; padding-top: 1%; display: flex; justify-content: center; flex-direction: column; text-align: center; 
+            border: clear; border-radius: 20px; background-color: #D3D3D3; width: 25%;">
+        <!--<img src="https://i.imgur.com/jLDJbOK.jpg" title="source: imgur.com" />-->
         <font color="#000">
         <?php
             $servername = "localhost";
@@ -36,6 +39,7 @@
             }
             
         ?>
+        </div>
         </font>
     </div>
 </body>

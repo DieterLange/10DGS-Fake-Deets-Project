@@ -14,7 +14,7 @@
             <a href=http://localhost/10DGS-Fake-Deets-Project/Database/logout.php style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Logout</font></a>
         </div>
     <div style="font-family: Arial, Helvetica, sans-serif; margin-left: 38%; margin-top: 15%; padding-bottom: 1%; padding-top: 1%; display: flex; justify-content: center; flex-direction: column; text-align: center; 
-                    border: clear; border-radius: 20px; background-color: #D3D3D3; width: 25%;">
+                border: clear; border-radius: 20px; background-color: #D3D3D3; width: 25%;">
         <?php
             $name = $_POST["fname"] ." ". $_POST["lname"];
             $email = $_POST["eadress"];
