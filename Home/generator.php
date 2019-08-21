@@ -34,11 +34,17 @@
             if (mysqli_num_rows($results)>0) {
 
                 while($row=mysqli_fetch_array($results)) {
+                    $photo = $row[8];
+                    echo "$photo";
                     echo "Name: ".$row[1]." ".$row[2]."<br><br< Gender: ".$row[3]."<br><br> Date of Birth: ".$row[4]."<br><br> Email Adress: ".$row[5]."<br><br> Home Adress: ".$row[6]."<br><br> Phone Number: ".$row[7]."<br><br> Photo: ".$row[8];
                 }
             }
             
         ?>
+        <div style="padding-top: 2%;">
+        <form method=POST action="">
+        <input type="submit" value="Generate Fake User" style="width: 150px; height: 35px; border-radius: 10px; background-color: navy; color: white; border-color: white;">
+        </div>
         </div>
         </font>
     </div>
