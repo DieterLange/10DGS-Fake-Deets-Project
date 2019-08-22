@@ -3,6 +3,7 @@
 <?php
 
     session_start();
+    
     if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] == false) {
         header("Location: admin.php");
     }
@@ -31,37 +32,37 @@
             </div>
                 <div>
                     <h4>First Name</h4>
-                    <input type=text placeholder="Enter first name" name="fname" style="height: 40px; font-size: 15px;">
+                    <input required type=text placeholder="Enter first name" name="fname" style="height: 40px; font-size: 15px;">
                 </div>
                     <div>
                         <h4>Last Name</h4>
-                        <input type="text" placeholder="Enter last name" name="lname" style="height: 40px; font-size: 15px;">
+                        <input required type="text" placeholder="Enter last name" name="lname" style="height: 40px; font-size: 15px;">
                     </div>
                         <div>
                             <h4>Gender</h4>
-                            <input type="radio" name="gender" value="Male"><span>Male</span>
-                            <input type="radio" name="gender" value="Female"><span>Female</span>
-                            <input type="radio" name="gender" value="Other"><span>Other</span>
+                            <input required type="radio" name="gender" value="Male"><span>Male</span>
+                            <input required type="radio" name="gender" value="Female"><span>Female</span>
+                            <input required type="radio" name="gender" value="Other"><span>Other</span>
                         </div>
                         <div>
                             <h4>Date of Birth</h4>
-                            <input type="date" placeholder="DD/MM/YYYY" name="dob" style="width: 175px; font-size: 15px;">
+                            <input required type="date" placeholder="DD/MM/YYYY" name="dob" style="width: 175px; font-size: 15px;">
                         </div>
                         <div>
                             <h4>Email Adress</h4>
-                            <input type="text" placeholder="example@email.com" name="eadress" style="height: 40px; font-size: 15px;">
+                            <input required type="text" placeholder="example@email.com" name="eadress" style="height: 40px; font-size: 15px;">
                         </div>
                         <div>
                             <h4>Home Adress</h4>
-                            <input type="text" placeholder="12 Adress Rd" name="hadress" style="height: 40px; font-size: 15px;">
+                            <input required type="text" placeholder="12 Adress Rd" name="hadress" style="height: 40px; font-size: 15px;">
                         </div>
                         <div>
                             <h4>Phone Number</h4>
-                            <input type="text" placeholder="(04)12345678" name="pnumber" style="height: 40px; font-size: 15px;">
+                            <input required type="text" placeholder="(04)12345678" name="pnumber" style="height: 40px; font-size: 15px;">
                         </div>
                         <div>
                             <h4>Photo</h4>
-                            <input type="text" placeholder="Insert File Path" name="photo" style="height: 40px; font-size: 15px;">
+                            <input required type="text" placeholder="Insert File Path" name="photo" style="height: 40px; font-size: 15px;">
                         </div>
                         
             <div style="padding-top: 10px;">
