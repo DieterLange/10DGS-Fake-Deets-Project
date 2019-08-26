@@ -35,25 +35,25 @@
                 <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/admin.php" style="text-decoration: none; margin-right: 70px;"><font color="#FFD700">Admin</a>
                 <a href="http://localhost/10DGS-Fake-Deets-Project/Home/contact.php" style="text-decoration: none; margin-right: 70px;"><font color="#fafaf">Contact</a>
             </div>
-            <font color="#000">
-            <div style="margin-top: 10%; border: clear; border-radius: 20px; background-color: #D3D3D3; height: 250px;  display: flex; justify-content: center; flex-direction: column; text-align: center;
-            width: 50%; margin-left: 25%; padding-bottom: 4%; padding-top: 2%;">
-            <div>
-                <h1>Admin Login</h1>
-            <div style="padding-bottom: 1%;">   
-                <label>Enter admin username and password to enter admin area,<br>
-                if you are not looking for the admin login <a href="http://localhost/10DGS-Fake-Deets-Project/Home/index.php">click here</a></label>
-            </div>
-            </div>
-            <div style="padding-top: 2%;">
-                <input required type="text" placeholder="Username" name="username" style="height: 40px; font-size: 15px;">
-            </div>
-            <div style="padding-top: 5%;">
-                <input required type="password" placeholder="Password" name="password" style="height: 40px; font-size: 15px;">
-            <div style="padding-top: 2%;">
-                <input type="submit" value="Login" style="width: 115px; height: 35px; border-radius: 10px; background-color: navy; color: white; border-color: white;">
-            </div>
-            </div>
+                <font color="#000">
+                    <div style="margin-top: 10%; border: clear; border-radius: 20px; background-color: #D3D3D3; height: 250px;  display: flex; justify-content: center; flex-direction: column; text-align: center;
+                    width: 50%; margin-left: 25%; padding-bottom: 4%; padding-top: 2%;">
+                        <div>
+                            <h1>Admin Login</h1>
+                                <div style="padding-bottom: 1%;">   
+                                    <label>Enter admin username and password to enter admin area,<br>
+                                    if you are not looking for the admin login <a href="http://localhost/10DGS-Fake-Deets-Project/Home/index.php">click here</a></label>
+                                        </div>
+                                        </div>
+                                    <div style="padding-top: 2%;">
+                                        <input required type="text" placeholder="Username" name="username" style="height: 40px; font-size: 15px;">
+                                </div>
+                            <div style="padding-top: 5%;">
+                                <input required type="password" placeholder="Password" name="password" style="height: 40px; font-size: 15px;">
+                        <div style="padding-top: 2%;">
+                            <input type="submit" value="Login" style="width: 115px; height: 35px; border-radius: 10px; background-color: navy; color: white; border-color: white;">
+                    </div>
+                </div>
             </div>
             </font>
         </div>
