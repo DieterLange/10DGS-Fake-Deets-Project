@@ -32,6 +32,9 @@ tr:nth-child(even) {background-color: #f2f2f2}
 </head>
 <body style="background-color: white;" text="black";>
     <div style="font-family: Arial, Helvetica, sans-serif; display: flex; justify-content: center; flex-direction: column; text-align: center; border: clear; background-color: white">
+        <div>
+        <h1>Fake Deetz</h1>
+        </div>
         <div style="font-family: Arial; font-size: 15px; font-weight: 400; display: flex; flex-direction: row; justify-content: center; align-items: center; height: 44px; background-color: #2B547E;">
             <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/newUser.php" style="text-decoration: none; margin-left: 70px; margin-right: 70px"><font color="#fafaf">Add New User</a>
             <a href="http://localhost/10DGS-Fake-Deets-Project/Admin/users.php" style="text-decoration: none; margin-right: 70px;"><font color="#FFD700">Users</a>
