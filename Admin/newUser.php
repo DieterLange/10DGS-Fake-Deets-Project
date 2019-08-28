@@ -31,40 +31,43 @@
                     border: clear; border-radius: 20px; background-color: #D3D3D3; width: 50%;">
             <div>
                 <h1>Create new fake user</h1>
-                <h3>Please enter details below</h3>
+                <h3>Please enter details in all fields below</h3>
+                <font color="red">
+                <h4>* Required Field</h4>
+                </font>
             </div>
                 <div>
-                    <h4>First Name</h4>
+                    <h4><font color="red">*</font>First Name</h4>
                     <input required type=text placeholder="Enter first name" name="fname" style="height: 40px; font-size: 15px;">
                 </div>
                     <div>
-                        <h4>Last Name</h4>
+                        <h4><font color="red">*</font>Last Name</h4>
                         <input required type="text" placeholder="Enter last name" name="lname" style="height: 40px; font-size: 15px;">
                     </div>
                         <div>
-                            <h4>Gender</h4>
+                            <h4><font color="red">*</font>Gender</h4>
                             <input required type="radio" name="gender" value="Male"><span>Male</span>
                             <input required type="radio" name="gender" value="Female"><span>Female</span>
                             <input required type="radio" name="gender" value="Other"><span>Other</span>
                         </div>
                         <div>
-                            <h4>Date of Birth</h4>
+                            <h4><font color="red">*</font>Date of Birth</h4>
                             <input required type="date" placeholder="DD/MM/YYYY" name="dob" style="width: 175px; font-size: 15px;">
                         </div>
                         <div>
-                            <h4>Email Adress</h4>
+                            <h4><font color="red">*</font>Email Adress</h4>
                             <input required type="text" placeholder="example@email.com" name="eadress" style="height: 40px; font-size: 15px;">
                         </div>
                         <div>
-                            <h4>Home Adress</h4>
+                            <h4><font color="red">*</font>Home Adress</h4>
                             <input required type="text" placeholder="12 Adress Rd" name="hadress" style="height: 40px; font-size: 15px;">
                         </div>
                         <div>
-                            <h4>Phone Number</h4>
+                            <h4><font color="red">*</font>Phone Number</h4>
                             <input required type="text" placeholder="(04)12345678" name="pnumber" style="height: 40px; font-size: 15px;">
                         </div>
                         <div>
-                            <h4>Photo</h4>
+                            <h4><font color="red">*</font>Photo</h4>
                             <input required type="text" placeholder="Insert File Path" name="photo" style="height: 40px; font-size: 15px;">
                         </div>
                         

@@ -7,6 +7,7 @@
     <title>Generator</title>
 </head>
 <body style="background-color: white;">
+    <form method=POST action="">
     <div style="font-family: Arial, Helvetica, sans-serif; display: flex; justify-content: center; flex-direction: column; text-align: center; border: clear; background-color: white">
         <div>
         <h1>Fake Deetz</h1>
@@ -19,6 +20,9 @@
         <div style="font-family: Arial, Helvetica, sans-serif; margin-left: 38%; margin-top: 5%; padding-bottom: 1%; padding-top: 1%; display: flex; justify-content: center; flex-direction: column; text-align: center; 
             border: clear; border-radius: 20px; background-color: #D3D3D3; width: 25%;">
         <font color="#000">
+        <div>
+        <h3>To generate a new user press the generate button</h3>
+        </div>
         <?php
             $servername = "localhost";
             $username = "root";
@@ -36,15 +40,13 @@
 
                 while($row=mysqli_fetch_array($results)) {
                     $photo = $row[8];
-                    echo '<img src="'.$photo.'" width="200"/><br><br>';
+                    echo '<img alt="Fake user image" src="'.$photo.'" width="200"/><br><br>';
                     echo "Name: ".$row[1]." ".$row[2]."<br><br> Gender: ".$row[3]."<br><br> Date of Birth: ".$row[4]."<br><br> Email Adress: ".$row[5]."<br><br> Home Adress: ".$row[6]."<br><br> Phone Number: ".$row[7];
                 }
             }
             $conn->close();
         ?>
         <div style="padding-top: 2%;">
-        <form method=POST action="">
-        <img style="">
         <input type="submit" value="Generate Fake User" style="width: 150px; height: 35px; border-radius: 10px; background-color: navy; color: white; border-color: white;">
         </div>
         </div>
